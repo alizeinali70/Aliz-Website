@@ -1,0 +1,38 @@
+# General ignores
+.DS_Store
+*.user
+*.suo
+*.log
+.vs/
+.vscode/
+.idea/
+
+# ASP.NET Core
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.csproj.user
+appsettings.*.json
+/API/Properties/launchSettings.json
+
+# Angular
+dist/
+node_modules/
+.angular/cache
+
+# SQL - Specific to your SQL/ directory
+SQL/*.mdf
+SQL/*.ldf
+SQL/*.bak
+
+# Build and dependencies
+[Dd]ebug/
+[Rr]elease/
+build/
+*.pdb
+*.nupkg
+
+# Environment files
+.env
+.env.local
