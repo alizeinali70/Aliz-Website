@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.API", "Aliz.API\Aliz.API.csproj", "{2D8B1EA0-135E-445B-802D-04D646ABE53C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.Services", "Aliz.Services\Aliz.Services.csproj", "{643A7334-69C7-4F87-A670-09A7439ECA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.Repositories", "Aliz.Repositories\Aliz.Repositories.csproj", "{5E6828E9-8C44-4259-BF42-5CE8B3CF8CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.DTOs", "Aliz.DTOs\Aliz.DTOs.csproj", "{43FEC30D-E326-4084-9058-7E8ED510579E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.Mapping", "Aliz.Mapping\Aliz.Mapping.csproj", "{A5C3F66B-EB40-450D-9DB2-6B2E05763943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.Models", "Aliz.Models\Aliz.Models.csproj", "{51085B3C-571B-4709-8C4F-9CFC325062E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliz.EfCore", "Aliz.EfCore\Aliz.EfCore.csproj", "{5DF5F9CD-A3E6-4AA1-8935-8D46C8DCB578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{2D8B1EA0-135E-445B-802D-04D646ABE53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D8B1EA0-135E-445B-802D-04D646ABE53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D8B1EA0-135E-445B-802D-04D646ABE53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643A7334-69C7-4F87-A670-09A7439ECA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643A7334-69C7-4F87-A670-09A7439ECA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643A7334-69C7-4F87-A670-09A7439ECA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643A7334-69C7-4F87-A670-09A7439ECA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6828E9-8C44-4259-BF42-5CE8B3CF8CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6828E9-8C44-4259-BF42-5CE8B3CF8CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6828E9-8C44-4259-BF42-5CE8B3CF8CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6828E9-8C44-4259-BF42-5CE8B3CF8CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FEC30D-E326-4084-9058-7E8ED510579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FEC30D-E326-4084-9058-7E8ED510579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FEC30D-E326-4084-9058-7E8ED510579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FEC30D-E326-4084-9058-7E8ED510579E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C3F66B-EB40-450D-9DB2-6B2E05763943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C3F66B-EB40-450D-9DB2-6B2E05763943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C3F66B-EB40-450D-9DB2-6B2E05763943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C3F66B-EB40-450D-9DB2-6B2E05763943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51085B3C-571B-4709-8C4F-9CFC325062E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51085B3C-571B-4709-8C4F-9CFC325062E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51085B3C-571B-4709-8C4F-9CFC325062E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51085B3C-571B-4709-8C4F-9CFC325062E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF5F9CD-A3E6-4AA1-8935-8D46C8DCB578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF5F9CD-A3E6-4AA1-8935-8D46C8DCB578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF5F9CD-A3E6-4AA1-8935-8D46C8DCB578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF5F9CD-A3E6-4AA1-8935-8D46C8DCB578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

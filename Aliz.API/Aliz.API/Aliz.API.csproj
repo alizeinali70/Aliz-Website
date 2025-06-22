@@ -8,6 +8,21 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aliz.DTOs\Aliz.DTOs.csproj" />
+    <ProjectReference Include="..\Aliz.EfCore\Aliz.EfCore.csproj" />
+    <ProjectReference Include="..\Aliz.Mapping\Aliz.Mapping.csproj" />
+    <ProjectReference Include="..\Aliz.Models\Aliz.Models.csproj" />
+    <ProjectReference Include="..\Aliz.Repositories\Aliz.Repositories.csproj" />
+    <ProjectReference Include="..\Aliz.Services\Aliz.Services.csproj" />
   </ItemGroup>
 
 </Project>
